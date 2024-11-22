@@ -1,6 +1,6 @@
 import './Menu.css'
 
-export function Menu() {
+export function Menu () {
   return (
     <div className="menu-container">
       <img src="src/img/pizza americana.webp" alt="Pizza Americana" className="image" />
@@ -22,4 +22,3 @@ export function Menu() {
 </div>
   )
 }
-

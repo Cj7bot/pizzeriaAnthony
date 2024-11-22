@@ -1,61 +1,88 @@
 /* inicio.css */
 .background-image {
-    position: fixed; /* Fija la imagen en el fondo */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  
-  .background-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Asegura que la imagen cubra toda la pantalla */
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .slider-container {
-    position: relative;
-    z-index: 1;
-    margin-top: 100px;
-    width: 800px;
-    height: 400px;
-    margin: 20px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .slider {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 8px;
-  }
-  
-  .slider-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .slider-button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-  }
-  
-  .slider-button:first-of-type {
-    left: 10px;
-  }
-  
-  .slider-button:last-of-type {
-    right: 10px;
-  }
-  
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  width: 800px;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  margin-top: 110px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slider-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 250px;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.slider-button:first-of-type {
+  left: 10px;
+}
+
+.slider-button:last-of-type {
+  right: 10px;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #ff0000; /* Cambia este color para que coincida con el estilo de tu sitio */
+}
+
+footer {
+  position: relative; /* o fixed, según necesites */
+  margin-top: 150px; /* ajusta según sea necesario */
+  clear: both; /* para evitar que otros elementos lo sobrepongan */
+}
