@@ -19,9 +19,9 @@ body{
   .menu-container2 {
     margin-top: 100px;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 10px;
     border-radius: 10px;
-    width:230px;
+    width:250px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -57,5 +57,11 @@ body{
   
   .button:hover {
     background-color: #0056b3;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
   }
   
