@@ -54,7 +54,7 @@ export function Inicio() {
           ></span>
         ))}
       </div>
-      <h1>Los Mejores Combos</h1>
+      <h1 className="combos">Los Mejores Combos</h1>
       <div className="menu">
         <div className="menu-container">
           <img src="src/img/combinacion-preferida.webp" alt="Pizza Chicken BBQ" className="image" />

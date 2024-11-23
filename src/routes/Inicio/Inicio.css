@@ -87,7 +87,7 @@ footer {
   clear: both; /* para evitar que otros elementos lo sobrepongan */
 }
 
-h1{
+.combos{
   color: white;
   font-size: 25px;
 }
