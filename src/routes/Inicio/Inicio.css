@@ -18,7 +18,7 @@
   position: relative;
   z-index: 1;
   margin-top: 100px;
-  width: 800px;
+  width: 1200px;
   height: 400px;
   margin: 20px auto;
   display: flex;
@@ -27,7 +27,7 @@
 }
 
 .slider {
-  margin-top: 110px;
+  margin-top: 330px;
   width: 100%;
   overflow: hidden;
   border-radius: 8px;
@@ -47,7 +47,7 @@
   padding: 0.5rem;
   cursor: pointer;
   position: absolute;
-  top: 250px;
+  top: 370px;
   transform: translateY(-50%);
   z-index: 10;
 }
@@ -63,7 +63,7 @@
 .dots-container {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 270px;
 }
 
 .dot {
@@ -88,8 +88,9 @@ footer {
 }
 
 .combos{
-  color: white;
-  font-size: 25px;
+  color: rgb(255, 234, 3);
+  font-weight: bolder;
+  font-size: 35px;
 }
 .menu-container {
   background-color: white;
@@ -154,4 +155,8 @@ footer {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  
 }
