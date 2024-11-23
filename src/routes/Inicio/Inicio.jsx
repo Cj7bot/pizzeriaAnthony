@@ -54,6 +54,43 @@ export function Inicio() {
           ></span>
         ))}
       </div>
+      <h1>Los Mejores Combos</h1>
+      <div className="menu">
+        <div className="menu-container">
+          <img src="src/img/combinacion-preferida.webp" alt="Pizza Chicken BBQ" className="image" />
+          <p className="text">Combinación Preferida</p>
+          <p>S/. 35.90</p>
+          <button className="button">Agregar</button>
+        </div>
+
+        <div className="menu-container">
+          <img src="src/img/combo-doble-sabor.webp" alt="Pizza Vegetariana" className="image" />
+          <p className="text">Combo Doble Sabor</p>
+          <p>S/. 39.90</p>
+          <button className="button">Agregar</button>
+        </div>
+
+        <div className="menu-container">
+          <img src="src/img/duo-doble-sabor.webp" alt="Pizza Pepperoni" className="image" />
+          <p className="text">Duo Doble Sabor</p>
+          <p>S/. 59.90</p>
+          <button className="button">Agregar</button>
+        </div>
+
+        <div className="menu-container">
+          <img src="src/img/tripack-doble-sabor.webp" alt="Pizza Continentalle" className="image" />
+          <p className="text">Tripack Doble Sabor</p>
+          <p>S/. 79.90</p>
+          <button className="button">Agregar</button>
+        </div>
+
+        <div className="menu-container">
+          <img src="src/img/combo-2-pizzas-familiares.webp" alt="Pizza La Favorita" className="image" />
+          <p className="text">Combo 2 Pizzas Familiares</p>
+          <p>S/. 79.90</p>
+          <button className="button">Agregar</button>
+        </div>
+      </div>
     </>
   );
 }
